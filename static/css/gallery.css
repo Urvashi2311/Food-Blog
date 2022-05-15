@@ -1,0 +1,64 @@
+ 
+  
+    
+    .section-title h2 {
+      font-size: 25px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    
+    
+    #gallery .gallery-list {
+      margin-bottom: 50px;
+    }
+    
+    #gallery .gallery-list .nav {
+      display: inline-block;
+    }
+    
+    #gallery .gallery-list .nav li {
+      margin: 10px 30px 10px 30px;
+      font-size: 16px;
+      
+      line-height: 16px;
+      cursor: pointer;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      float: none; 
+      display: inline-block;
+    
+    }
+    
+    #gallery .gallery-list .nav li:hover, #gallery .gallery-list .nav li.filter-active  {
+      color:purple;
+      text-decoration: underline;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    
+    
+    .gallery-thumbnail {
+      margin-bottom: 10px;
+      overflow: hidden;
+      min-height: 260px;
+    }
+    
+    .gallery-thumbnail img {
+      width:400px;
+      height: 250px;
+      transition: .5s ease-in-out;
+  
+    }
+  
+    
+    .gallery-thumbnail:hover{
+      filter: brightness(80%);
+    }
+  
+    video
+    {
+      width: 100%;
+      object-fit: cover;
+    }
+  

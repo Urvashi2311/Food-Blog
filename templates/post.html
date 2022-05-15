@@ -1,0 +1,33 @@
+{% extends 'blog_base.html' %}
+{% load static %}
+
+
+{% block title %}
+{{post.title}}
+{% endblock %}
+
+
+{% block content %}
+<hr>
+    <div class="container" style="padding-top: 10px;">					
+			<h1 class="display-4 secondfont mb-3 font-weight-bold" style="text-align: center;">{{post.title}}</h1>	
+			<hr>				
+	</div>
+				
+	<div class="col-md-6 container">
+		<img src="/media/{{post.image}}" style="height:700px; width: 90%;">
+	</div>
+		
+    </div>
+
+    <div class="container">
+        <div class="row">      
+                <p class="me-4" data-aos="fade-up">{{post.content | safe }}
+                </p>				
+        </div>
+			<hr>    
+	</div>
+	
+
+
+{% endblock %}

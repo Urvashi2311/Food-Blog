@@ -1,0 +1,1 @@
+web: gunicorn foodBlog.wsgi --log-file -

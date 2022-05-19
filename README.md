@@ -1,2 +1,7 @@
 # Food-Blog 
-Food Blog is Django Application which is a Blogging Website where admin can update it with latest blogs dyanammically after deployment of web application.
+Food Blog is Django BLogging Application where admin can write blogs and update it dyanammically evem after deployment.
+
+Technologies Used:
+Framework - Djnago 
+Language - Python
+Database - MySQL

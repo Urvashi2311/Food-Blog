@@ -3,6 +3,6 @@ Food Blog is Django BLogging Application where admin can write blogs and update 
 
 
 
-**Framework : **  Djnago   <br />
+**Framework : **  Django   <br />
 **Language : ** Python  <br />
 **Database : **  MySQL

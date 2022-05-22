@@ -1,5 +1,5 @@
 # Food-Blog   <br />
-To view click here https://bood-flog.herokuapp.com/
+To view click here https://bood-flog.herokuapp.com/  <br />
 Food Blog is Django BLogging Application where admin can write blogs and update it dyanammically even after deployment.  <br />
 
 
